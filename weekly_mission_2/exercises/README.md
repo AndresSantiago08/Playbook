@@ -32,7 +32,7 @@ classDiagram
     PullRequest : +getStatus()
     PullRequest : +getTitleAndAuthor()
 ```
-
+---
 ### Ejercicio 1.3 (objectTwitterUser.js)
 Modela los siguientes diagramas en objetos de JS:
 
