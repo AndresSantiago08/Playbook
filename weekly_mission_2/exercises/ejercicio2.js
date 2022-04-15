@@ -61,3 +61,5 @@ const explorers = [
 
    // Ejercicio 2.1
    explorers.forEach(elementOfArray => console.log(elementOfArray.name))
+   // Ejercicio 2.2
+   explorers.forEach(elementOfArray => console.log(elementOfArray.stack))
