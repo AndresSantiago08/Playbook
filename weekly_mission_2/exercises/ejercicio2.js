@@ -66,3 +66,8 @@ explorers.forEach(elementOfArray => console.log(elementOfArray.stack))
 // Ejercicio 2.3
 const NewList = explorers.map(elementOfArray => {return elementOfArray.stack})
 console.log(NewList)
+// Ejercicio 2.4
+const ListExplorersJS = explorers.filter(explorer => explorer.stack.includes('js'))
+console.log(ListExplorersJS)
+// Ejercicio 2.5 
+console.log(explorers.find(elementOfArray => elementOfArray.city === "CDMX"));
