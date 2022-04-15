@@ -1,5 +1,6 @@
-# Ejercicio 1.1
----
+# Ejercicios
+
+### Ejercicio 1.1 (objectIssue.js)
 Modela los siguientes diagramas en objetos de JS:
 
 ```mermaid
