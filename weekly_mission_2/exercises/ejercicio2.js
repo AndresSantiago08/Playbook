@@ -83,3 +83,7 @@ console.log(explorers.reduce((count, elementOfArray) => count + elementOfArray.e
 console.log("2.7 - Validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true")
 const ExplorerFinishedFrontEnd = explorers.some(element => element.missions.frontend.exercisesFinished === true)
 console.log(ExplorerFinishedFrontEnd)
+// Ejercicio 2.8
+console.log("2.8 - Validación si todos los explorers tienen la propiedad isFinished del onboarding como true")
+const ExplorerOnBoardingEnd = explorers.every(element => element.missions.onboarding.isFinished === true)
+console.log(ExplorerOnBoardingEnd)
