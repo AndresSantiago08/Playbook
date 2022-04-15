@@ -71,3 +71,7 @@ const ListExplorersJS = explorers.filter(explorer => explorer.stack.includes('js
 console.log(ListExplorersJS)
 // Ejercicio 2.5 
 console.log(explorers.find(elementOfArray => elementOfArray.city === "CDMX"));
+// Ejercicio 2.6
+console.log(explorers.reduce((count, elementOfArray) => count + elementOfArray.exercises_completed, 0))
+// Ejercicio 2.7
+console.log()
