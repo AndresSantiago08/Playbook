@@ -62,3 +62,7 @@ Toma la lista del archivo "ejercicio2.js" y realiza lo siguiente:
 1. Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME  
 1. Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.  
 
+---
+### Ejercicio 3
+
+Tomando de referencia el ejercicio 1, convierte esos objetos a definiciones de clases, trata de aplicar lo visto en los ejemplos. 
