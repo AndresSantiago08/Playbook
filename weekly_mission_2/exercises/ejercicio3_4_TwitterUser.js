@@ -33,7 +33,7 @@ class TwitterInfo extends TwitterUser{
 }
 
 // Llamar a la clase TwitterUser
-const NewUser = new TwitterUser("Andres Santiago", "A_Santiago_5");
+const NewUser = new TwitterUser("Andres Santiago", "AndresSantiago08");
 // Mostrar nombre
 console.log(NewUser.getInfo());
 // Cambiar nombre
@@ -43,7 +43,7 @@ console.log(NewUser.getName);
 // Guardar nuevo nombre
 const NewName = NewUser.getName;
 // Llamar a la clase TwitterInfo
-const MoreInfo = new TwitterInfo(NewName, "A_Santiago_5", "April 2013");
+const MoreInfo = new TwitterInfo(NewName, "AndresSantiago08", "April 2013");
 // Mostrar método getStatus
 console.log(MoreInfo.getStatus(10));
 // Mostrar método getNumberTweets

@@ -1,6 +1,6 @@
 const User = {
     name : "Andrés Santiago",
-    userName : "A_Santiago_5",
+    userName : "AndresSantiago08",
     joinedIn : "April 2013",
     following : 14,
     followers : 10,
